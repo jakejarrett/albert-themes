@@ -61,13 +61,8 @@
 }
 
 #proposallist::item:selected{
-	border: 1px solid #5294e2;
-	background: #5294e2;
-	color: #FFFFFF;
-}
-
-#proposallist:selected{
-	color: #FFFFFF;
+	border: 1px solid #dcdcdc;
+	background: #e8e8e8;
 }
 
 #proposallist::item:hover{

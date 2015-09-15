@@ -1,0 +1,104 @@
+#bottomframe * {
+	color: #FFFFFF;
+	background-color: #5c616c;
+	selection-color: #535761;
+	selection-background-color: #5294e2;
+}
+
+#bottomframe {
+	width: 640px;
+	min-width: 640px;
+	max-width: 640px;
+	padding: 0px;
+	border-radius: 7px;
+	background-color: #5c616c;
+}
+
+#topframe {
+	border: 1px solid #535761;
+	padding: 7px;
+	border-radius: 3px;
+}
+
+#inputline {
+	padding: 2px;
+	border-radius: 0px;
+	font: 36px "Ubuntu";
+	border: none;
+	border-bottom: 1px solid #535761;
+	background-color: #5c616c;
+}
+
+#settingsbutton {
+	min-width:14px;
+	min-height:14px;
+	max-width:14px;
+	max-height:14px;
+	border: none;
+	border-radius: 14px;
+	color: #6f7582;
+	background-color: transparent;
+}
+
+#settingsbutton:hover {
+	border: 0px;
+	color: #535761;
+}
+
+/********** PROPOSALLIST **********/
+
+#proposallist {
+	icon-size:48px;
+	font: 26px "Ubuntu";
+	border-radius: 0px;
+	background-color: transparent;
+}
+
+#proposallist::item{
+	height:48px;
+	border-radius: 0px;
+	border: 1px solid transparent;
+}
+
+#proposallist::item:selected{
+	border: 1px solid #464952;
+	background: #535761;
+}
+
+#proposallist::item:hover{
+	background: #535761;
+	border: 1px solid #464952;
+	color: #FFFFFF;
+}
+#proposallist::item:selected:!active{}
+#proposallist::item:selected:active{}
+#proposallist::item:alternate{}
+
+/********** SCROLLBAR **********/
+
+#proposallist QScrollBar:vertical  {
+	width: 12px;
+	background: transparent;
+	border-left: 0px;
+	padding-left: 2px;
+}
+
+#proposallist QScrollBar::handle:vertical  {
+	background: #6f7582;
+	width: 6px;
+	border-radius: 4px;
+	min-height: 24px;
+}
+
+#proposallist QScrollBar::handle:vertical:hover  {
+	background: #838a99;
+}
+
+#proposallist QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+#proposallist QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
+#proposallist QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+	border: 0px;
+	width: 0px;
+	height: 0px;
+	background: transparent;
+}

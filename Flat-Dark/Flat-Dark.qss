@@ -1,8 +1,8 @@
 #bottomframe * {
 	color: #FFFFFF;
 	background-color: #5c616c;
-	selection-color: #535761;
-	selection-background-color: #5294e2;
+	selection-color: #838a99;
+	selection-background-color: #535761;
 }
 
 #bottomframe {

@@ -1,11 +1,11 @@
-#bottomframe * {
+#bottomFrame * {
 	color: #FFFFFF;
 	background-color: #5c616c;
 	selection-color: #838a99;
 	selection-background-color: #535761;
 }
 
-#bottomframe {
+#bottomFrame {
 	width: 640px;
 	min-width: 640px;
 	max-width: 640px;
@@ -14,13 +14,13 @@
 	background-color: #5c616c;
 }
 
-#topframe {
+#topFrame {
 	border: 1px solid #535761;
 	padding: 7px;
 	border-radius: 3px;
 }
 
-#inputline {
+#inputLine {
 	padding: 2px;
 	border-radius: 0px;
 	font: 36px "Ubuntu";
@@ -29,7 +29,7 @@
 	background-color: #5c616c;
 }
 
-#settingsbutton {
+#settingsButton {
 	min-width:14px;
 	min-height:14px;
 	max-width:14px;
@@ -40,63 +40,63 @@
 	background-color: transparent;
 }
 
-#settingsbutton:hover {
+#settingsButton:hover {
 	border: 0px;
 	color: #535761;
 }
 
-/********** PROPOSALLIST **********/
+/********** proposalList **********/
 
-#proposallist {
+#proposalList {
 	icon-size:48px;
 	font: 26px "Ubuntu";
 	border-radius: 0px;
 	background-color: transparent;
 }
 
-#proposallist::item{
+#proposalList::item{
 	height:48px;
 	border-radius: 0px;
 	border: 1px solid transparent;
 }
 
-#proposallist::item:selected{
+#proposalList::item:selected{
 	border: 1px solid #464952;
 	background: #535761;
 }
 
-#proposallist::item:hover{
+#proposalList::item:hover{
 	background: #535761;
 	border: 1px solid #464952;
 	color: #FFFFFF;
 }
-#proposallist::item:selected:!active{}
-#proposallist::item:selected:active{}
-#proposallist::item:alternate{}
+#proposalList::item:selected:!active{}
+#proposalList::item:selected:active{}
+#proposalList::item:alternate{}
 
 /********** SCROLLBAR **********/
 
-#proposallist QScrollBar:vertical  {
+#proposalList QScrollBar:vertical  {
 	width: 12px;
 	background: transparent;
 	border-left: 0px;
 	padding-left: 2px;
 }
 
-#proposallist QScrollBar::handle:vertical  {
+#proposalList QScrollBar::handle:vertical  {
 	background: #6f7582;
 	width: 6px;
 	border-radius: 4px;
 	min-height: 24px;
 }
 
-#proposallist QScrollBar::handle:vertical:hover  {
+#proposalList QScrollBar::handle:vertical:hover  {
 	background: #838a99;
 }
 
-#proposallist QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
-#proposallist QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
-#proposallist QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+#proposalList QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+#proposalList QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
+#proposalList QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
 	border: 0px;
 	width: 0px;
 	height: 0px;
